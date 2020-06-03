@@ -36,7 +36,12 @@ img {
     max-width: 100%;
     padding: 1em;
 }
-
+.img-card_image{
+    transition: all .2s ease-in-out;
+}
+.img-card_image:hover{
+    transform: scale(1.2) rotate(3deg);
+}
 
 /* MENU BAR */
 
@@ -50,9 +55,7 @@ img {
     justify-content: space-between;
     flex-direction: row;
     color: rgb(255, 255, 255);
-
     font-family: 'Francois One', sans-serif;
-
     z-index: 2;
     background-color: transparent;
     opacity: .9;
@@ -137,7 +140,7 @@ section:nth-child(2) {
 
 .bio-text {
     padding: .5em .5em;
-    text-align: justify;
+    text-align: center;
     color: #fff;
     
 }
@@ -180,7 +183,7 @@ h2 {
 }
 
 .img-card_text {
-    text-align: justify;
+    text-align: center;
     padding: 1em .5em;
     color: white;
 }
@@ -216,6 +219,12 @@ hr {
     text-decoration: none;
     color: #fff;
 }
+#social ul li a:hover {
+    text-decoration: none;
+    color: transparent;
+}
+
+
 
 
 /* MEDIA QUERIES */
