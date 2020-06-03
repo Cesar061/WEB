@@ -7,18 +7,11 @@ $(function() {
         biografia = $('#biografia'),
         proyectos = $('#proyectos'),
         social = $('#social');
-    /*
-    
-        btnBars = $('.navbar-bars'),
-        navbar = $('.navbar'),
-        btnBars.on('click', function(e) {
-        e.preventDefault();
-        navbar.toggleClass('hidden');
-    });
-    */
+
     brand.on('click', function() {
         itemScroll(inicio);
     });
+
     links.on('click', function(e) {
         e.preventDefault();
         if ($(this).text() == 'Biografía') {
